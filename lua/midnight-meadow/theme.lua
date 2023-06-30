@@ -46,6 +46,7 @@ M.highlights = {
   Ignore          =  { fg = p.grey54,       bg = p.none,                 },
   Error           =  { fg = p.red,          bg = p.none,  bold = true,   },
   Todo            =  { fg = p.orchid,       bg = p.none,  bold = true,   },
+  MatchParen      =  { fg = p.none,         bg = p.none,                 },
 
   -- Interface highlighting
   Normal          =  { fg = p.misty_rose,     bg = p.none,               },
