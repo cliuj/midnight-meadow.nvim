@@ -75,8 +75,12 @@ M.highlights = {
   DiffChange      =  { fg = p.none,         bg = g.diff.change,          },
 
   -- Tree-sitter
-  ['@text.strong']    = { fg = p.misty_rose, bg = p.none,  bold = true,   },
-  ['@text.emphasis']  = { fg = p.misty_rose, bg = p.none,  italic = true, },
+  ['@text.strong']    = { fg = p.misty_rose, bg = p.none, bold = true,   },
+  ['@text.emphasis']  = { fg = p.misty_rose, bg = p.none, italic = true, },
+
+
+  -- Plugins
+  MiniIndentscopeSymbol =  { fg = p.grey30,  bg = p.none,                },
 }
 
 return M
