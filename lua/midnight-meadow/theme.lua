@@ -66,6 +66,8 @@ M.highlights = {
   MoreMsg         =  { fg = p.thistle,        bg = p.none, bold = true,  },
   WarningMsg      =  { fg = p.gold,           bg = p.none, bold = true,  },
   NonText         =  { fg = p.none,           bg = p.none,               },
+  Folded          =  { fg = p.sky_blue,       bg = p.none, bold = true,  },
+  FoldColumn      =  { fg = p.green,          bg = p.none,               },
 
 
   DiffAdd         =  { fg = p.none,         bg = g.diff.add,             },
