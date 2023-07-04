@@ -67,8 +67,6 @@ M.highlights = {
   WarningMsg      =  { fg = p.gold,           bg = p.none, bold = true,  },
   NonText         =  { fg = p.none,           bg = p.none,               },
 
-  LazyProgressDone         =  { fg = p.thistle,        bg = p.none,      },
-
 
   DiffAdd         =  { fg = p.none,         bg = g.diff.add,             },
   DiffDelete      =  { fg = p.none,         bg = g.diff.delete,          },
